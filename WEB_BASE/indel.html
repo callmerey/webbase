@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sunfhouse/css/indel.css">
+    <link rel="stylesheet" href="/sunfhouse/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <div class="header">
+        <div class="container">
+            <div class="banner_top">
+                <div class="logo">
+                    <img src="/sunfhouse/images/logo.png" alt="">
+                </div>
+                <div class="contact_right">
+                    <ul class="social">
+                        <li>
+                            <i class="fab fa-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-pinterest"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                    </ul>
+                    <div class="lang">
+                        <div class="drop">
+                            <select class="index" name="ENGLISH" id="">
+                                <option value="1">ENGLISH</option>
+                                <option value="2">VIET NAM</option>
+                                <option value="3">DONG LAO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index_bn">
+                <div class="banner_right">
+                    <div class="cart">
+                        <div class="checkin">
+                            <div class="login">
+                                <a class="link_checkin" href="#">Đăng Nhập</a>
+                            </div>
+                            <div class="wishlist">
+                                <a class="link_checkin" href="#">Đăng Nhập</a>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="cart_item">
+                                <div class="icon_cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="total-cart">
+                                </div>
+                                <div class="count_item">
+                                    <span> items : <span class="total-count"></span></span>
+                                </div>
+                            </div>
+                            <div class="update_cart">
+                                <div class="remove_cart">
+                                    <i class="fas fa-trash"></i>
+                                </div>
+                                <div class="edit_cart">
+                                    <form action="cart.html">
+                                        <i class="far fa-edit"></i>
+                                        <input type="submit" value="click" onclick="displayCart()">
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout">
+                            <div class="view_cart">
+                                <a class="link_checkout" href="#">Đăng Nhập</a>
+                            </div>
+                            <div class="checkout_cart">
+                                <a class="link_checkout" href="#">Đăng Nhập</a>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <form action="">
+                                <div class="input_search">
+                                    <input class="input_" type="text" placeholder="Search">
+                                </div>
+                                <div class="button_search">
+                                    <i style="float: right; font-size: 23px; margin: 3px 7px 6px 5px;" class="fas fa-search"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="welcome_box">
+                        <h2>Chào Mừng Bạn Tới Surfhouse</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html"><img src="/sunfhouse/images/logo.png" alt=""></a>
+                </div>
+                <div class="header_right">
+                    <ul class="social">
+                        <li>
+                            <a href=""> <i class="fb"> </i> </a>
+                        </li>
+                        <li><a href=""><i class="tw"> </i> </a></li>
+                        <li><a href=""><i class="utube"> </i> </a></li>
+                        <li><a href=""><i class="pin"> </i> </a></li>
+                        <li><a href=""><i class="instagram"> </i> </a></li>
+                    </ul>
+                    <div class="lang_list">
+                        <div class="dropdown"><span class="old"><select tabindex="4" class="" id="EasyDropDownE626DF">
+                  <option value="" class="label">En</option>
+                  <option value="1">English</option>
+                  <option value="2">French</option>
+                  <option value="3">German</option>
+                </select></span><span class="selected">En</span><span class="carat"></span>
+                            <div>
+                                <ul>
+                                    <li>English</li>
+                                    <li>French</li>
+                                    <li>German</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="index-banner">
+                <div class="wmuSlider example1" style="overflow: hidden; height: 534px;">
+                    <div class="wmuSliderWrapper">
+                        <article style="position: relative; width: 100%; opacity: 1;">
+                            <div class="banner-wrap">
+                                <div class="bannertop_box">
+                                    <ul class="login">
+                                        <li class="login_text"><a href="login.html">Login</a></li>
+                                        <li class="wish"><a href="#">Wish List</a></li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                    <div class="cart_bg">
+                                        <ul class="cart">
+                                            <i class="cart_icon"> <i style="font-size: 40px; color: aqua;" class="fas fa-cart-arrow-down"></i></i>
+                                            <p class="cart_desc"><span class="total-cart"> </span><br><span class="yellow"><span class="total-count"><span> </span> </span>
+                                                </span><span>items</span></p>
+                                            <div class="clearfix"></div>
+                                        </ul>
+                                        <ul class="product_control_buttons">
+                                            <li>
+                                                <a href="#" class="remove_cart"><i style="font-size: 30px;" class="far fa-trash-alt"></i></a>
+                                            </li>
+                                            <form action="cart.html">
+                                                <li><input type="submit" onclick="displayCart()" value="edit">
+                                                </li>
+                                            </form>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <ul class="quick_access">
+                                        <li class="view_cart"><a href="#">View Cart</a></li>
+                                        <li class="check"><a href="#">Checkout</a></li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                    <div class="search">
+                                        <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                                        <input type="submit" value="">
+                                    </div>
+                                    <div class="welcome_box">
+                                        <h2>Chào mừng bạn đến với Surfhouse</h2>
+                                        <p>Hệ thống cửa hàng trực tuyến siêu cấp vip pro tại Local ThanhSon</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main" style="background-color: #f8f8f8;">
+        <div class="content_box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="menu_box">
+                            <h3 class="menu_head">Menu</h3>
+                            <ul class="nav1">
+                                <li><a href="apparel.html">About</a></li>
+                                <li><a href="apparel.html">Apparel</a></li>
+                                <li><a href="apparel.html">Surf Apparel</a></li>
+                                <li><a href="apparel.html">Windsurf</a></li>
+                                <li><a href="apparel.html">Kitesurf</a></li>
+                                <li><a href="apparel.html">Accessories</a></li>
+                                <li><a href="apparel.html">Sale</a></li>
+                                <li><a href="apparel.html">Brands</a></li>
+                                <li><a href="apparel.html">Blog</a></li>
+                                <li><a href="apparel.html">Gadgets</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="side_banner">
+                            <div class="banner_img"><img src="./sunfhouse/images/pic9.jpg" class="img-responsive" alt=""></div>
+                            <div class="banner_holder">
+                                <h3>Now <br> is <br> Open!</h3>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <h4 class="tag_head">Tags Widget</h4>
+                            <ul class="tags_links">
+                                <li><a href="#">Kitesurf</a></li>
+                                <li><a href="#">Super</a></li>
+                                <li><a href="#">Duper</a></li>
+                                <li><a href="#">Theme</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Equipment</a></li>
+                                <li><a href="#">Best</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Super</a></li>
+                                <li><a href="#">Duper</a></li>
+                                <li><a href="#">Theme</a></li>
+                                <li><a href="#">Responsiv</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Equipment</a></li>
+                            </ul>
+                            <a href="#" class="link1">View all tags</a>
+                        </div>
+                        <div class="tags">
+                            <h4 class="tag_head">Articles Experts</h4>
+                            <ul class="article_links">
+                                <li><a href="#">Eleifend option congue nihil</a></li>
+                                <li><a href="#">Investigationes demonst</a></li>
+                                <li><a href="#">Qui sequitur mutationem</a></li>
+                                <li><a href="#">videntur parum clar sollemnes</a></li>
+                                <li><a href="#">ullamcorper suscipit lobortis</a></li>
+                                <li><a href="#">commodo consequat. Duis autem</a></li>
+                                <li><a href="#">Investigationes demonst</a></li>
+                                <li><a href="#">ullamcorper suscipit lobortis</a></li>
+                                <li><a href="#">Qui sequitur mutationem</a></li>
+                                <li><a href="#">videntur parum clar sollemnes</a></li>
+                                <li><a href="#">ullamcorper suscipit lobortis</a></li>
+                            </ul>
+                            <a href="#" class="link1">View all</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <!---728x90--->
+
+                        <h3 class="m_1">New Products</h3>
+                        <div class="content_grid">
+                            <div class="product">
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!---728x90--->
+                        <div class="content_grid">
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic4.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <button href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</button></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic5.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic6.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!---728x90--->
+                        <h3 class="m_2">Top Products</h3>
+                        <div class="content_grid">
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic7.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic8.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic13.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <h3 class="m_2">Sale Products</h3>
+                        <div class="content_grid">
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic10.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic11.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col_1_of_3 span_1_of_3">
+                                <div class="view view-first">
+                                    <a href="single.html">
+                                        <div class="inner_content clearfix">
+                                            <div class="product_image">
+                                                <img src="/sunfhouse/images/pic12.jpg" class="img-responsive" alt="">
+                                                <div class="mask">
+                                                    <div class="info"> <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart">Add to cart</a></div>
+                                                </div>
+                                                <div class="product_container">
+                                                    <div class="cart-left">
+                                                        <p class="title">Lorem Ipsum 2014</p>
+                                                    </div>
+                                                    <div class="price">$99.00</div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="brands">
+                <ul class="brand_icons">
+                    <li><img src="/sunfhouse/images/icon1.jpg" class="img-responsive" alt=""></li>
+                    <li><img src="/sunfhouse/images/icon2.jpg" class="img-responsive" alt=""></li>
+                    <li><img src="/sunfhouse/images/icon3.jpg" class="img-responsive" alt=""></li>
+                    <li><img src="/sunfhouse/images/icon4.jpg" class="img-responsive" alt=""></li>
+                    <li><img src="/sunfhouse/images/icon5.jpg" class="img-responsive" alt=""></li>
+                    <li><img src="/sunfhouse/images/icon6.jpg" class="img-responsive" alt=""></li>
+                    <li class="last"><img src="images/icon7.jpg" class="img-responsive" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="instagram_top">
+                <div class="instagram text-center">
+                    <h3><i class="insta_icon"> </i> Instagram feed:&nbsp;<span class="small">#Surfhouse</span></h3>
+                </div>
+                <ul class="instagram_grid">
+                    <li>
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images/i1.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <li>
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images//i2.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <li>
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images//i3.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <li>
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images//i4.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <li>
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images//i5.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <li class="last_instagram">
+                        <a class="popup-with-zoom-anim" href="#small-dialog1"><img src="./sunfhouse/images//i6.jpg" class="img-responsive" alt=""></a>
+                    </li>
+                    <div class="clearfix"></div>
+                    <!-- <div id="small-dialog1" class="mfp-hide">
+                    <div class="pop_up">
+                        <h4>A Sample Photo Stream</h4>
+                        <img src="images/i_zoom.jpg" class="img-responsive" alt="">
+                    </div>
+                </div> -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="container">
+            <ul class="footer_social">
+                <li>
+                    <a href="#"> <i class="fb"> </i> </a>
+                </li>
+                <li><a href="#"><i class="tw"> </i> </a></li>
+                <li><a href="#"><i class="pin"> </i> </a></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/sunfhouse/js/store.js"></script>
+    <script src="/sunfhouse/js/product.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
